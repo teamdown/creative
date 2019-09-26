@@ -1,0 +1,171 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+@font-face {
+  font-family: NeueHaasGroteskDisp Pro;
+  src: url(../fonts/hinted-NHaasGroteskDSPro-55Rg.html) format("woff2"),
+    url(../fonts/hinted-NHaasGroteskDSPro-55Rg.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GT Super Display;
+  src: url(../fonts/hinted-GTSuperDisplay-Light.html) format("woff2"),
+    url(../fonts/hinted-GTSuperDisplay-Light.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+html {
+  overflow-y: scroll;
+  min-height: 100%;
+  color: #222;
+  font-family: NeueHaasGroteskDisp Pro;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 699px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 999px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1999px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 2000px) and (max-width: 2399px) {
+  html {
+    font-size: 21px;
+  }
+}
+
+@media (min-width: 2400px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1000px) {
+  html,
+  html.has-dom-loading {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 999px) {
+  html {
+    overflow-x: hidden;
+  }
+}
+
+.is-mobile.has-smooth-scroll body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+@media (max-width: 999px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+::selection {
+  background-color: #efefef;
+  color: #aaa;
+  text-shadow: none;
+}
+
+svg .st0 {
+  fill: currentColor;
+}
+
+.c-home-intro .creative-link {
+  white-space: nowrap;
+}
+
+.c-rail_wrapper {
+  display: block;
+  width: 100%;
+}
+
+.c-rail_wrapper {
+  position: relative;
+  white-space: nowrap;
+  transform: translateZ(0);
+  overflow: hidden;
+}
+
+.c-rail_group-container {
+  position: relative;
+  white-space: nowrap;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: auto;
+}
+
+.c-rail_item,
+.c-rail_track {
+  display: inline-block;
+}
+
+.c-rail_track-container {
+  display: inline-block;
+  width: auto;
+  white-space: nowrap;
+}
+
+.is-ie .c-rail_track-container {
+  display: inline-block;
+}
+
+.c-block-content_label {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+@media (min-width: 1000px) {
+  .c-block-content_label {
+    position: absolute;
+    top: 50%;
+    right: 2.5rem;
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 999px) {
+  .c-block-content_label {
+    text-align: center;
+    padding: 1.25rem 0;
+  }
+}
+
+@media (max-width: 699px) {
+  .c-block-content_label {
+    font-size: 1.125rem;
+  }
+}
